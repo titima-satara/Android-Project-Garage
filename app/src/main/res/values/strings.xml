@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Garage Service</string>
+    <string name="car_registration">Car registration</string>
+    <string name="user_details">User details</string>
+    <string name="car_owner">Car Owner</string>
+    <string name="username">Username*</string>
+    <string name="idcard">IDcard</string>
+    <string name="phonenumber">PhoneNumber*</string>
+    <string name="car_model">Car Model</string>
+    <string name="car_brand">Car Brand</string>
+    <string name="date_of_service">Date of service*</string>
+    <string name="service">Service*</string>
+    <string name="dd_mm_yyyy" translatable="false">DD-MM-YYYY</string>
+    <string name="home">Home</string>
+    <string name="add">ADD</string>
+    <string name="service_received">Service received</string>
+    <string name="edit">Edit</string>
+    <string name="service_details">Service details</string>
+    <string name="back">Back</string>
+    <string name="edit_details">Edit details</string>
+    <string name="xxxxxx" translatable="false">XXXXXX</string>
+    <string name="search">Search</string>
+    <string name="service_record">Service record</string>
+    <string name="car_registration_">Car Registration :</string>
+    <string name="service_recordup">SERVICE RECORD</string>
+    <string name="service_">Service</string>
+    <string name="date_of_service_n">- Date of service.\n</string>
+    <string name="service_n">- Service.\n</string>
+    <string name="add_user_information">Add user information</string>
+    <string name="please_fill">Please fill in the fields marked with a asterisk.\n</string>
+    <string name="ok">OK</string>
+    <string name="confirm_correction">Confirm correction</string>
+    <string name="have_you">Have you finished checking the information?</string>
+    <string name="no">NO</string>
+    <string name="username_n">- Username.\n</string>
+    <string name="phone_number_n">- Phone number.\n</string>
+    <string name="you_have">You have not entered the vehicle registration number.</string>
+    <string name="do_not">Do not use spaces or use \"-\".</string>
+    <string name="service_format">Please enter the date of service in the format DD-MM-YYYY</string>
+    <string name="follows">Please edit as follows.\n</string>
+    <string name="date">- Date\n</string>
+    <string name="month">- Month\n</string>
+    <string name="year">- Year\n</string>
+</resources>

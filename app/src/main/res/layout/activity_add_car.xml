@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6B00BCD4"
+    tools:context=".AddCar">
+
+    <TextView
+        android:id="@+id/carRegistration_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/car_registration"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditDetails_textView" />
+
+    <EditText
+        android:id="@+id/carRegistration_editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/carRegistration_textView"
+        app:layout_constraintStart_toEndOf="@+id/carRegistration_textView"
+        app:layout_constraintTop_toTopOf="@+id/carRegistration_textView" />
+
+    <TextView
+        android:id="@+id/EditDetails_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/user_details"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/carOwner_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/car_owner"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carRegistration_editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/username_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/username"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carOwner_editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/iDcard_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/idcard"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/phoneNumber_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/phonenumber"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iDcard_editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/carModel_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/car_model"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carBrand_editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/carBrand_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/car_brand"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber_editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/carOwner_editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/carOwner_textView"
+        app:layout_constraintEnd_toEndOf="@+id/carRegistration_editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/carRegistration_editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/carOwner_textView" />
+
+    <EditText
+        android:id="@+id/username_editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/username_textView"
+        app:layout_constraintEnd_toEndOf="@+id/carOwner_editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/carOwner_editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/username_textView" />
+
+    <EditText
+        android:id="@+id/iDcard_editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/iDcard_textView"
+        app:layout_constraintEnd_toEndOf="@+id/username_editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/username_editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/iDcard_textView" />
+
+    <EditText
+        android:id="@+id/phoneNumber_editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/phoneNumber_textView"
+        app:layout_constraintEnd_toEndOf="@+id/iDcard_editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/iDcard_editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/phoneNumber_textView" />
+
+    <EditText
+        android:id="@+id/carBrand_editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/carBrand_textView"
+        app:layout_constraintEnd_toEndOf="@+id/phoneNumber_editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/phoneNumber_editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/carBrand_textView" />
+
+    <EditText
+        android:id="@+id/carModel_editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/carModel_textView"
+        app:layout_constraintEnd_toEndOf="@+id/carBrand_editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/carBrand_editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/carModel_textView" />
+
+    <TextView
+        android:id="@+id/DateofService_Textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/date_of_service"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carModel_editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/service_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/service"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DateofService__editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/DateofService__editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dd_mm_yyyy"
+        android:inputType="date"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/DateofService_Textview"
+        app:layout_constraintEnd_toEndOf="@+id/carModel_editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/carModel_editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/DateofService_Textview"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <EditText
+        android:id="@+id/service_editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/service_textView"
+        app:layout_constraintEnd_toEndOf="@+id/DateofService__editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/DateofService__editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/service_textView"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="#8BC34A"
+        android:text="@string/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/add_buttonSR"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/add_buttonSR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="@+id/back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/back_button"
+        app:layout_constraintTop_toTopOf="@+id/back_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

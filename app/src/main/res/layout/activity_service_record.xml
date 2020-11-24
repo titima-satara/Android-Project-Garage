@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6B00BCD4"
+    tools:context=".ServiceRecord">
+
+    <TextView
+        android:id="@+id/serviceRecord_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/service_recordup"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/DateofService_Textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/date_of_service"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serviceRecord_textView" />
+
+    <TextView
+        android:id="@+id/service_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/service"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DateofService__editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/DateofService__editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="@string/dd_mm_yyyy"
+        android:inputType="date"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/DateofService_Textview"
+        app:layout_constraintStart_toEndOf="@+id/DateofService_Textview"
+        app:layout_constraintTop_toTopOf="@+id/DateofService_Textview" />
+
+    <EditText
+        android:id="@+id/service_editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/service_textView"
+        app:layout_constraintEnd_toEndOf="@+id/DateofService__editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/DateofService__editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/service_textView"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="#F2F43636"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/add_buttonSR"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/add_buttonSR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="@+id/back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/back_button"
+        app:layout_constraintTop_toTopOf="@+id/back_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

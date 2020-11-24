@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Garage Service</string>
+    <string name="car_registration">ทะเบียนรถ</string>
+    <string name="user_details">ข้อมูลผู้ใช้</string>
+    <string name="car_owner">ชื่อเจ้าของรถ</string>
+    <string name="username">ชื่อผู้ใช้*</string>
+    <string name="idcard">บัตรประจำตัวประชาชน</string>
+    <string name="phonenumber">เบอร์โทรศัพท์*</string>
+    <string name="car_model">รุ่นรถ</string>
+    <string name="car_brand">ยี่ห้อรถ</string>
+    <string name="date_of_service">วันที่เข้าใช้บริการ*</string>
+    <string name="service">บริการที่ได้รับ*</string>
+    <string name="home">หน้าหลัก</string>
+    <string name="add">เพิ่มข้อมูล</string>
+    <string name="service_received">เพิ่มบริการที่ได้รับ</string>
+    <string name="edit">แก้ไขข้อมูล</string>
+    <string name="service_details">บริการที่ได้รับ</string>
+    <string name="back">กลับ</string>
+    <string name="edit_details">แก้ไขข้อมูล</string>
+    <string name="search">ค้นหา</string>
+    <string name="service_record">บันทักบริการ</string>
+    <string name="car_registration_">ทะเบียน :</string>
+    <string name="service_recordup">บันทักบริการ</string>
+    <string name="service_">บริการที่ได้รับ</string>
+    <string name="date_of_service_n">วันที่เข้าใช้บริการ\n</string>
+    <string name="service_n">บริการที่ได้รับ\n</string>
+    <string name="add_user_information">เพิ่มข้อมูลผู้ใช้</string>
+    <string name="please_fill">กรุณากรอกข้อมูลในช่องที่มีเครื่องหมายดอกจัน \n</string>
+    <string name="ok">ตกลง</string>
+    <string name="confirm_correction">ยืนยันการแก้ไข</string>
+    <string name="have_you">ตวรจสอบข้อมูลเรียบร้อยหรือไม่?</string>
+    <string name="no">ตวรจสอบอีกรอบ</string>
+    <string name="username_n">ชื่อผู้ใช้\n</string>
+    <string name="phone_number_n">เบอร์โทรศัพท์\n</string>
+    <string name="you_have">คุณยังไม่ได้ใส่หมายเลขทะเบียนรถ</string>
+    <string name="do_not">ห้ามเว้นวรรคหรือใช้ \"-\"</string>
+    <string name="follows">โปรดแก้ไขดังนี้</string>
+    <string name="date">วันที่</string>
+    <string name="month">เดือน</string>
+    <string name="year">ปี</string>
+    <string name="service_format">โปรดป้อนวันที่ให้บริการในรูปแบบ DD-MM-YYYY</string>
+</resources>
